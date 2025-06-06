@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SPY TECH</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+  font-family: Arial, sans-serif;
+  background: #000;
+  overflow-y: auto; /* changed from hidden */
+  color: #fff;
+  min-height: 100vh;
+}
+
+html {
+  overflow-y: auto; /* ensure scrolling is allowed */
+}
+
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 450px;
+      margin: 70px auto;
+      background: rgba(0, 0, 0, 0.85);
+      border: 2px solid #00ffe7;
+      border-radius: 18px;
+      padding: 30px 25px;
+      box-shadow: 0 0 50px #00ffe7;
+      text-align: center;
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        transform: translateY(-40px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    h1 {
+      color: #00ffe7;
+      font-size: 32px;
+      text-shadow: 0 0 10px #00ffe7, 0 0 20px #00ffe7;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #ccc;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: 10px 0;
+      padding: 14px 20px;
+      border: 2px solid #00ffe7;
+      background: transparent;
+      color: #00ffe7;
+      border-radius: 12px;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px transparent;
+    }
+
+    .btn:hover {
+      background: #00ffe7;
+      color: #000;
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #00ffe7;
+    }
+
+    .btn i {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+      margin-top: 25px;
+    }
+  </style>
+
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+
+<div class="container">
+  <h1>SPY TECH</h1>
+  <div class="subtitle">WELCOME TO SPY TECH</div>
+
+  <a href="Xsim.html" class="btn"><i class="WhatsApp Channel"></i>WHATSAPP CHANNEL</a>
+  <a href="https://whatsapp.com/channel/0029Vb0vMybHwXb8onxGxd1g" class="btn"><i class="fas fa-id-card"></i>FACEBOOK HACK</a>
+  <a href="https://youtu.be/HmybIJsvR84?si=_2CiqJffeEzhm7Ju" class="btn"><i class="fas fa-globe"></i>FACEBOOK HACK</a>
+  <a href="XlinkXLocker.html" class="btn"><i class="fas fa-lock"></i> Link Locker</a>
+  <a href="XtcsXtracker.html" class="btn"><i class="fas fa-shipping-fast"></i>INSTAGRAM HACK</a>
+  <a href="https://youtu.be/7FjgTD-tgjE?si=waUNyP9v1VJLlwao" class="btn"><i class="fas fa-phone"></i>PHONE NOTIFICATIONS HACK</a>
+  <a href="https://youtu.be/ySc7R-wkd2Q?si=N-bqmCR7_gcrmwhY" class="btn"><i class="fas fa-globe"></i>CREATE TELEGRAM BOT</a>
+  <a href="https://mega.nz/file/XF5XUY4b#D3FIaSPnAK8b6ZoObbmoFFc8t4LEBtNgT3NSUpH427U" class="btn"><i class="fas fa-lock"></i>SOCIAL MEDIA VIDEO DOWNLOADER</a>
+  <a href="https://savefrom.net" class="btn"><i class="fas fa-shipping-fast"></i>SOCIAL MEDIA VIDEO DOWNLOADER</a>
+  <a href="https://aiease.ai" class="btn"><i class="fas fa-phone"></i>AI IMAGE GENERATOR</a>
+  <a href="https://t.me/qii7cbot" class="btn"><i class="fas fa-phone"></i>TELEGRAM PHISHING BOT</a>
+  <a href="https://drive.google.com/drive/folders/1FGIu4mPvfcyPnh854gp-o2mKRdvGij0k" class="btn"><i class="fas fa-phone"></i>ZPHISHER INTRODUCTION</a>
+  <a href="https://www.mediafire.com/file/62zi2y8nbfijd5h/base%252814%2529.apk/file" class="btn"><i class="fas fa-phone"></i>DOWNLOAD TERMUX</a>
+  <a href="https://www.mediafire.com/file/dq595ot5x7fjfs7/Termux_Setup_Cmds.txt/file" class="btn"><i class="fas fa-phone"></i>TERMUX BASICS</a>
+  <a href="https://www.aixploria.com/en/free-ai" class="btn"><i class="fas fa-phone"></i>ALL IN ONE AI WEBSITES</a>
+  <a href="https://happymod.com" class="btn"><i class="fas fa-phone"></i>DOWNLOAD ALL MOD APPS</a>
+  <a href="https://t.me/qii7cbot" class="btn"><i class="fas fa-phone"></i></a>
+  <a href="https://whatsapp.com/channel/0029Vb77XV09Bb66Pba7eB1T" class="btn"><i class="fas fa-phone"></i>CREATE OWN APPS</a>
+  <a href="https://onepage.website" class="btn"><i class="fas fa-phone"></i>CREATE OWN WEBSITE</a>
+  <a href="https://fakedetailsgenerator.com" class="btn"><i class="fas fa-phone"></i>FAKE DETAILS GENERATOR</a>
+  <a href="https://t.me/spytechtool_bot" class="btn"><i class="fas fa-phone"></i>OUR TOOLS BOT</a>
+  <a href="https://t.me/Kingkelly_bot" class="btn"><i class="fas fa-phone"></i>CONTACT OWNER</a> 
+  
+  <div class="footer">
+    &copy; 2025 - OWNER: KING KELLY | PHISH3R M4N
+  </div>
+</div>
+
+<!-- Background Animation Script -->
+<script>
+  const canvas = document.getElementById("bg");
+  const ctx = canvas.getContext("2d");
+
+  canvas.height = window.innerHeight;
+  canvas.width = window.innerWidth;
+
+  const matrix = "01";
+  const fontSize = 16;
+  const columns = canvas.width / fontSize;
+  const drops = Array.from({ length: columns }).fill(1);
+
+  function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.07)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = "#00ffe7";
+    ctx.font = ${fontSize}px monospace;
+
+    for (let i = 0; i < drops.length; i++) {
+      const text = matrix[Math.floor(Math.random() * matrix.length)];
+      ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+      if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+        drops[i] = 0;
+      }
+      drops[i]++;
+    }
+  }
+
+  setInterval(draw, 35);
+
+  window.addEventListener('resize', () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  });
+</script>
+
+</body>
+</html>
